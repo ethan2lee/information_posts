@@ -1,0 +1,24 @@
+{
+  "name": "information_post",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethan2lee/information_posts.git"
+  },
+  "author": "ethan2lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ethan2lee/information_posts/issues"
+  },
+  "homepage": "https://github.com/ethan2lee/information_posts#readme"
+}
