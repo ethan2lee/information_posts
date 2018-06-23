@@ -2,26 +2,55 @@
 
 <meta charset="utf-8">
 <title>电协人优秀师兄师姐名录</title>
+<style>
+    /* body { */
+        /* background-color: aqua; */
+    /* } */
+
+    label {
+        width: 200px;
+        height: 30px;
+        display: inline-block;
+        text-align: right;
+    }
+
+    input {
+        width: 200px;
+        height: 30px;
+    }
+    form .submit{
+        width: 100px;
+        height: 50px;
+        background: blue;
+        color: #FFF;
+        border-radius: 5px;
+    }
+</style>
 
 <body>
 
-    <img src="./images/gdut_flag.png" width="258" height="39" />
-    <h1l>电协人优秀师兄师姐名录</h1>
+    <img src="./images/gdut_flag.png" width="58" height="58" />
+    <h1>电协人优秀师兄师姐名录</h1>
     <form action="http://127.0.0.1:8081/process_post" method="POST">
-        姓名:
+        <label for="">姓名:</label>
         <input type="text" name="personal_name">
-        <br> 毕业后地点:
+        <br>
+        <label for="">毕业后地点:</label>
         <input type="text" name="address_graduation_off">
-        <br> 公司名称或高校名称:
+        <br>
+        <label for="">公司名称或高校名称：</label>
         <input type="text" name="name_of_company_or_school">
-        <br> 联系电话:
+        <br>
+        <label for="">联系电话：</label>
         <input type="text" name="phone_number">
-        <br> 常用邮箱:
+        <br>
+        <label for="">常用邮箱：</label>
         <input type="text" name="email">
-        <br> 微信:
+        <br>
+        <label>微信：</label>
         <input type="text" name="weichat">
         <br>
-        <input type="submit" value="Submit">
+        <input type="submit" value="提交" class="submit">
 
     </form>
 </body>
