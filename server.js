@@ -16,11 +16,11 @@ app.post('/process_post', urlencodedParser, function (req, res) {
    // 输出 JSON 格式
    var response = {
        "姓名":req.body.personal_name,
-       "毕业后地点":req.body.address_graduation_off,
-       "公司名称或高校名称":req.body.name_of_company_or_school,
-       "联系电话":req.body.phone_number,
+       "毕业后地点":req.body.address,
+       "公司名称或高校名称":req.body.nameOfCompanyOrSchool,
+       "联系电话":req.body.phone,
        "常用邮箱":req.body.email,
-       "微信":req.body.weichat
+       "微信":req.body.wechat
        
    };
    console.log(response);
